@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/********** reset *********/
+body {font-family:"microsoft yahei";}
+ul {list-style:none;margin:0px;padding:0px;}
+a {text-decoration:none;outline:none;}
+
+.datagrid-sort-asc .datagrid-sort-icon,
+.datagrid-sort-desc .datagrid-sort-icon {padding:0px;}
+
+.tabs-panels {padding:10px;}
+
+.easyui-dialog {padding:15px 15px 15px 0px;}
+.easyui-dialog .fitem {margin-bottom:10px;}
+.easyui-dialog .fitem label {margin-left:15px;}
+.easyui-dialog .fitem .easyui-textbox {margin-right:15px;width:180px;}
+.easyui-dialog .fitem .easyui-combobox {margin-right:15px;width:185px;}
+.easyui-dialog .fitem .txt-long {width:455px;}
+
+/********** global *********/
+#header {height:70px;overflow:hidden;}
+#header .logo {display:block;margin:5px;height:60px;}
+#header .top-btns {position:absolute;top:20px;right:15px;}
+#header .top-btns span {vertical-align:middle;}
+#header .top-btns .easyui-combobox {width:80px;}
+
+#naver {width:220px;}
+#navmenu {border:none;}
+.navmenu {margin-top:5px;}
+.navmenu li {margin:10px 15px;}
+.navmenu li a {
+	display:block;
+	height:32px;
+	line-height:32px;
+	padding-left:36px;
+	font-size:14px;
+	font-weight:bold;
+	color:#333;
+	border:1px solid #fff;
+	background-repeat:no-repeat;
+	background-position:10px center;
+
+}
+.navmenu li.active a,
+.navmenu li a:hover {color:#1542a4;background-color:#e0ecff;border-color:#99bbe8;}
+
+
+
+
